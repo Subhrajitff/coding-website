@@ -63,7 +63,7 @@ navbar li{
   font-size: 52px;
 }
 #missionsection{
-  height: 300x;
+  height: 300px;
   background-color: white;
   width: 67%;
   margin: auto;
@@ -135,4 +135,40 @@ navbar li{
 .spimage{
   height: 80%;
   margin: 20px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+  #introsection{
+    height: 600px;
+  }
+  #missionsection{
+  height: 800px;
+  }
+  #sponsorsection{
+    height: 400px;
+  }
+ 
+.card-content { 
+    padding: 0 4px;
+}
+
+.card-content p {
+  font-size: 28px;
+}
+.card-img {
+  height: 144px;
+  padding: 0px 70px;
+  margin: 0px 10px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 15px 65px;
+    height: 200px;
+  }
+
 }
